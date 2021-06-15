@@ -12,7 +12,7 @@ sanity_check = true
 [cluster default]
 key_name = divine-showmik
 scheduler = sge
-master_instance_type = t2.micro
+master_instance_type = t2.small
 base_os = centos7
 vpc_settings = default
 compute_instance_type = t2.micro
